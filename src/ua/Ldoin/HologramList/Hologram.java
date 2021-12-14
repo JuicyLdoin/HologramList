@@ -142,7 +142,7 @@ public class Hologram {
         SkullMeta headMeta = (SkullMeta) head.getItemMeta();
 
         GameProfile profile = new GameProfile(UUID.randomUUID(), null);
-        profile.getProperties().put("textures", new Property("textures", Main.config.getString("holograms." + name + ".head")));
+        profile.getProperties().put("textures", new Property("textures", Main.config.getString("holograms." + name + ".head.texture")));
 
         try {
 
