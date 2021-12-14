@@ -1,0 +1,7 @@
+name: HologramList
+main: ua.Ldoin.HologramList.Main
+version: 1.0
+commands:
+  hologramlist:
+    aliases:
+      - hl

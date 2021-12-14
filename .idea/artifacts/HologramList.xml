@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HologramList">
+    <output-path>D:/Server/Test/plugins</output-path>
+    <root id="archive" name="HologramList.jar">
+      <element id="module-output" name="HologramList" />
+      <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+    </root>
+  </artifact>
+</component>

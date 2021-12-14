@@ -1,0 +1,49 @@
+message:
+  enabled: true
+  messages:
+    hologram:
+      is_null: "&aCan't find hologram with name %hologram%!"
+      is_not_null: "&aHologram %hologram% already created!"
+
+      info: "&aName: %hologram%"
+
+      created: "&aHologram %hologram% created!"
+      deleted: "&cHologram %hologram% deleted!"
+
+      not_contains_line: "&cHologram %hologram% isn't contains line %line%&c!"
+
+      add_line: "&aAdded line '%line%' &ato hologram %hologram%!"
+      remove_line: "&aRemoved line '%line%' &afrom hologram %hologram%!"
+
+      max_lines: "&aMax lines of hologram %hologram% is %lines%!"
+      moved: "&aHologram %hologram% moved!"
+      head: "&aHead of hologram %hologram% changed!"
+      rotatable: "&aHead rotate of hologram %hologram% is currently %rotatable%!"
+
+      saved: "&aHologram %hologram% saved!"
+      all_saved: "&aAll holograms saved!"
+
+    for_players: "&cOnly players can use this command!"
+    no_permissions: "&cSorry, but you don't have permissions to this command!"
+    not_an_integer: "&cThe number is not an integer!"
+
+options:
+  replacement: "_"
+
+  head:
+    # time of head rotate (in ticks)
+    time: 1
+    degrees: 5
+
+holograms:
+  test:
+    location: world 0 100 0
+    max_lines: 5
+    head:
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZmYWRmMWZmZDFlNDQzZGZjNzBkODkyZjg3ZjFiMzNiNTRkNTQwNmY0OTQ0NzQzMDMyNDgzZTBjYTY1NjRiYyJ9fX0=
+      rotatable: false
+    lines:
+    - '&cTest'
+    - '&bTest'
+    - '&aTest'
+    - '&eTest'
