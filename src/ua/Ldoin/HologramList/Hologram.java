@@ -16,7 +16,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 public class Hologram {
 
-    private Hologram(String name, int maxLines, String head, boolean rotable, List<String> lines, Location loc) {
+    public Hologram(String name, int maxLines, String head, boolean rotable, List<String> lines, Location loc) {
 
         this.name = name;
 
