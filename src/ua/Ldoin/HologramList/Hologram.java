@@ -233,6 +233,16 @@ public class Hologram {
 
     }
 
+    public void UpdateLines(List<String> lines) {
+
+        ClearLines();
+
+        this.lines = lines;
+
+        SpawnHologram();
+
+    }
+
     public void save(boolean clear) {
 
         if (Main.config.contains("holograms." + name)) {
